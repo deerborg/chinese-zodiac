@@ -16,17 +16,20 @@ public class Main {
 
         // Outputs according to the information given
         switch (zodiac){
-            case 1:
+            case 0:
                 System.out.print("Your zodiac is Monkey");
                 break;
-            case 2:
+            case 1:
                 System.out.print("Your zodiac is Roaster");
                 break;
-            case 3:
+            case 2:
                 System.out.print("Your zodiac is Dog");
                 break;
-            case 4:
+            case 3:
                 System.out.print("Your zodiac is Pig");
+                break;
+            case 4:
+                System.out.print("Your zodiac is Rat");
                 break;
             case 5:
                 System.out.print("Your zodiac is Ox");
@@ -47,7 +50,7 @@ public class Main {
                 System.out.print("Your zodiac is Horse");
                 break;
             case 11:
-                System.out.print("Your zodiac is Goat");
+                System.out.print("Your zodiac is Sheep");
                 break;
         }
     }
